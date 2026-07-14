@@ -241,6 +241,15 @@ El detalle completo del Sprint puede consultarse en:
 
 ---
 
+# 📚 Recursos adicionales
+- [LinuxJournet](https://labex.io/linuxjourney)
+- [The Linux Command Line](https://linuxcommand.org/tlcl.php)
+- [RHEL - Get Started Docs](https://access.redhat.com/start)
+- [Prepare.sh](https://prepare.sh/)
+- [OverTheWire](https://overthewire.org)
+
+---
+
 # 🚀 Objetivo final
 
 Al completar este laboratorio espero ser capaz de administrar servidores Linux con autonomía, documentar procedimientos de forma profesional, automatizar tareas repetitivas y contar con un portfolio técnico que refleje una evolución real hacia roles de Linux SysAdmin, Infrastructure o DevOps.
