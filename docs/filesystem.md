@@ -3,8 +3,8 @@ Existe un estándar para organizar los archivos en el filesystem de Linux: FHS (
 más fácil de mantener y trabajar, en general, sobre él.
 
 # Directorios
-**Todo** en Linux es un archivo. Esta premisa es importante porque no existen ejecutables como en Windows. Su equivalente en Linux sería un archivo con extensión `.sh`, que no es ni más ni menos
-que un script de bash con permisos de ejecución.
+En Linux casi todo puede representarse como un archivo (archivos regulares, directorios, dispositivos, sockets, etc.). Además de scripts, existen ejecutables binarios en formato ELF,
+que constituyen la mayoría de los programas instalados por el sistema, por ejemplo `/bin/bash`.
 El directorio raíz (`/`) contiene todos los demás directorios con sus respectivas funciones:
 
 `/etc`: Se guardan configuraciones de las herramientas.
