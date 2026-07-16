@@ -2,7 +2,7 @@
 ## Instalación del primer Servidor Linux
 En primera instancia, se debió instalar desde cero un servidor Linux. Se optó por dos opciones básicas, orietandas a servidores en entornos corporativos: Ubuntu Server y AlmaLinux.
 
-En la instalación de la primer opción elegida, tuve el primer traspié. Utilizando Hyper-V, levanté la virtual con los parámetros de configuración estándar y como VM de Gen 2.
+En la instalación de la primera opción elegida, tuve el primer traspié. Utilizando Hyper-V, levanté la virtual con los parámetros de configuración estándar y como VM de Gen 2.
 El primer inconveniente no era posible iniciar la máquina virtual, sólo quedaba el logo del hipervisor con un fondo negro y, tras varios minutos sin hacer nada, arrojaba la siguiente pantalla.
 
 <img width="400" height="300" alt="hyperv-error" src="https://github.com/user-attachments/assets/e31f003d-3da8-473f-b8ff-a66ed1690804" />
@@ -15,7 +15,7 @@ La cadena de certificación se es:
 
 `Shim -> GRUB -> Kernel Linux -> SO`
 
-Si bien Ubuntu a trabajado con Microsoft para que la firma del bootloader sea tomada como válida, tenía configurado por defecto la Plantilla de arranque seguro para Microsoft Windows. Es por esto, que no se reconocía la firma.
+Si bien Ubuntu ha trabajado con Microsoft para que la firma del bootloader sea tomada como válida, tenía configurado por defecto la Plantilla de arranque seguro para Microsoft Windows. Es por esto, que no se reconocía la firma.
 Al cambiar a "Entidad de certificación UEFI de Microsoft", la VM arrancó sin ningún problema.
 
 ---
