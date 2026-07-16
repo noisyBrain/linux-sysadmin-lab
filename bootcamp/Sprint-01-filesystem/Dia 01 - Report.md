@@ -11,7 +11,7 @@ El primer inconveniente no era posible iniciar la máquina virtual, sólo quedab
 Tras una breve investigación, la respuesta salió fácil a la luz en internet. El problema era que tenía activado el modo de inicio seguro en la configuración de la VM.
 Al desactivar por completo el Secure Boot, la máquina inició y pude realizar la instalación sin inconvenientes, pero algo me decía que no era lo correcto. Investigando más a fondo,
 entendí que el modo Arranque Seguro está para verificar la veracidad del fabricante que emite ese bootloader (para el caso de Ubuntu Server, es **shimx64.efi**).
-La cadena de certificación se es:
+La cadena de confianza es:
 
 `Shim -> GRUB -> Kernel Linux -> SO`
 
@@ -29,9 +29,9 @@ Otro motivo importante es la resolución de dependencias. Mantener el sistema ac
 
 ## Ejercicios
 - Crear un directorio de trabajo personal dentro de tu home
-    - Se crea con el comando `mkdir` un nuevo directorio llamado "workspace" dentro del directorio del usuario creado en la instalación del servidor (`/home/sysadmin/`)
+    - Se cró mediante el comando `mkdir` un nuevo directorio llamado "workspace" dentro del directorio del usuario creado en la instalación del servidor (`/home/sysadmin/`)
 - Explorar `/`, `/home`, `/etc`, `/var`, `/usr`
-    - Respecto a los directorios que se pide investigar (`/`, `/home`, `/etc`, `/var`, `/usr`), se hace una explicación con palabras propias en la documentaicón del respositorio <link>
+    - Respecto a los directorios que se pide investigar (`/`, `/home`, `/etc`, `/var`, `/usr`), se hace una explicación con palabras propias en la documentaicón del respositorio ([docs/filesystem.md](https://github.com/noisyBrain/linux-sysadmin-lab/blob/main/docs/filesystem.md))
 - Crear un archivo de documentación inicial
     - Se crea con el comando `touch` el archivo "documentación-inicial.md" dentro de `/home/sysadmin/workspace/`
 - Identificar dónde se almacenan configuraciones, logs y datos de usuarios
@@ -45,7 +45,7 @@ Otro motivo importante es la resolución de dependencias. Mantener el sistema ac
 
 - [X]  Creé mi espacio de trabajo
 - [X]  Exploré los directorios principales
-- [ ]  Documenté qué función cumple cada directorio
+- [X]  Documenté qué función cumple cada directorio
 - [X]  Identifiqué dónde viven los logs
 - [X]  Identifiqué dónde viven las configuraciones
 
