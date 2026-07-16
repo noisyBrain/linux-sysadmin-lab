@@ -9,7 +9,7 @@ que constituyen la mayoría de los programas instalados por el sistema, por ejem
 El directorio raíz (`/`) contiene todos los demás directorios con sus respectivas funciones:
 - `/etc`: Se guardan configuraciones de las herramientas.
 - `/var`: Este directorio contiene archivos dinámicos como logs de aplicaciones (`/var/log`), caché (`/var/cache`)
-- `/usr`:
+- `/usr`: Contiene los programas, binarios y configuraciones del usuario que no son esenciales para el arranque del sistema. 
 - `/tmp`: Se guardan los archivos temporales (equivalentes a %temp% en Windows). Estos archivos se guardan en disco y se eliminan cuando se apaga el equipo. Pueden ser generados por las propias
 aplicaciones, procesos del sistema, o bien, por el usuario.
 - `/home`: Contiene todos los datos de los usuarios que existan en el sistema, cada uno con su respectivo directorio.
