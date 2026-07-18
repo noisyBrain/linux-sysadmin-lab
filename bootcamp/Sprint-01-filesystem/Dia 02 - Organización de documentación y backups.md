@@ -64,3 +64,13 @@ Necesitan una estructura organizada para poder trabajar.
 - Verificar antes y después de cada movimiento
 - Mantener convenciones de nombres
 - Evitar estructuras caóticas
+
+---
+
+## Estado actual del servidor
+Para este ejercicio: 
+- se crearon los directorios `Download`, `Desktop`, `old_docs`. Además de agregar algunos documentos dentro de `workspace`.
+- se instaló `tree` para visualización de árbol en la terminal (con previa sincronización y actualización de packages)
+
+<img width="889" height="572" alt="tree-dia2" src="https://github.com/user-attachments/assets/652c765b-b5dd-415b-aedc-d4bc2ae53e7f" />
+
