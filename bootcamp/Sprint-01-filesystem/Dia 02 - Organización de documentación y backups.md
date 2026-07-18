@@ -68,9 +68,15 @@ Necesitan una estructura organizada para poder trabajar.
 ---
 
 ## Estado actual del servidor
-Para este ejercicio: 
-- se crearon los directorios `Download`, `Desktop`, `old_docs`. Además de agregar algunos documentos dentro de `workspace`.
-- se instaló `tree` para visualización de árbol en la terminal (con previa sincronización y actualización de packages)
+
+El servidor fue preparado para simular un entorno de trabajo con documentación y respaldos heredados.
+
+Estado inicial:
+
+- Existen los directorios `Downloads`, `Desktop`, `old_docs` y `workspace` dentro del HOME del usuario `sysadmin`.
+- La documentación y los archivos de respaldo se encuentran distribuidos entre `Downloads` y `old_docs`.
+- `workspace` contiene archivos de trabajo que no forman parte de la documentación heredada.
+- Se instaló la utilidad `tree` para facilitar la visualización de la estructura de directorios.
+- El sistema se encuentra actualizado mediante `apt update` y `apt upgrade`.
 
 <img width="889" height="572" alt="tree-dia2" src="https://github.com/user-attachments/assets/652c765b-b5dd-415b-aedc-d4bc2ae53e7f" />
-
