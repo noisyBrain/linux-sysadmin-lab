@@ -30,11 +30,11 @@ Necesitan una estructura organizada para poder trabajar.
 
 ## Checkpoint
 
-- [ ]  Creé la estructura requerida
-- [ ]  Copié archivos correctamente
-- [ ]  Moví archivos sin perder información
-- [ ]  Renombré siguiendo el estándar
-- [ ]  Verifiqué resultados
+- [X]  Creé la estructura requerida
+- [X]  Copié archivos correctamente
+- [X]  Moví archivos sin perder información
+- [X]  Renombré siguiendo el estándar
+- [X]  Verifiqué resultados
 
 ---
 
