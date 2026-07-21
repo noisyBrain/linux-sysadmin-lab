@@ -66,3 +66,25 @@ Infraestructura necesita revisar registros para identificar evidencias.
 - Filtrar antes de leer
 - Documentar evidencia
 - Conservar resultados
+
+## Estado Inicial
+Mediante el uso de IA, se creó un script que genere automáticamente archivos de logs para realizar el ejercicio del día de hoy.
+La estructura inicial es la siguiente:
+
+```bash
+/opt
+└── labcorp
+    ├── app
+    │   └── logs
+    │       ├── application.log
+    │       ├── scheduler.log
+    │       └── worker.log
+    ├── auth
+    │   └── auth.log
+    ├── backups
+    │   ├── backup_2026_07_18.tar
+    │   └── backup_2026_07_19.tar
+    ├── README.txt
+    └── reports
+        └── old_report.txt
+```
